@@ -61,10 +61,9 @@ def isprime (k):
 #
 # Luego de la lista del range "e" se escoge el ultimo numero de la lista, ya que entre mas grande sea "e", habra menos riesgo de seguridad.
 #
-# se escoge un "d" tal que d * e * %phi(N) = 1, donde "d" es una lista de numeros (1,2,3...), para hallar "d" se crea un range que va desde 0 hasta phi(n) * 3, lo multiplico por tres para hallar el mas grande.
+# se escoge un "d" tal que d * e * %phi(N) = 1, donde "d" es una lista de numeros (1,2,3...), para hallar "d" se crea un range que va desde 0 hasta phi(n) * 3, lo multiplico por tres para hallar el tercero de la lista.
 #
 # Por ultimo se muestra la llave publica (e, N) y la llave privada (d, N).
-
 
 
 def myrsa (p, q):
