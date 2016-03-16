@@ -7,9 +7,9 @@
 #
 # Estrategia: inicialmente se anaden cuatro funciones que mas adelante seran necesarias para una quinta funcion
 # que es la funcion que dados dos numeros primos genere las llaves publica y privada del algoritmo RSA.
-#-------------------------------------------------------------------------------------------------------------------------
+#################################################################################################################
 
-
+# Funciones necesarias para la funcion myrsa.
 
 # La funcion minimo es para encontrar el minimo entre dos numeros.
 
@@ -44,6 +44,9 @@ def isprime (k):
 		if k % i ==0:
 			return 0
 	return 1
+
+
+## DESARROLLO DE LA FUNCION 
 
 # Ahora se procede a crear la funcion que dados dos numeros primos p y q, genere las llaves publica y privada del algoritmo RSA.
 # con la funcion isprime verificamos si los dos numeros son primos, en el caso de que uno o los dos no sean primos mostrara el mensaje: 
@@ -83,18 +86,3 @@ def myrsa (p, q):
 		print "La llave privada es: ",d,",",N
 
 print myrsa(41, 43) 
-		
-		
-		
-		
-
-
-
-
-
-
-
-
-
-
-
