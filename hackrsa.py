@@ -48,7 +48,6 @@ def isprime (k):
 #
 # Ya que encontramos a N, se procede a encontrar phi(N) con la formula phi(N) = (p-1) * (q-1)
 # en este caso no se coloca phi(N) sino phi_N ya que si se coloca phi(N) sale error al momento de ejecutar.
-#
 
 
 def hackrsa (e, N, n1, n2, n3, n4): 
