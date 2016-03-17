@@ -46,7 +46,7 @@ def isprime (k):
 	return 1
 
 
-## DESARROLLO DE LA FUNCION 
+## DESARROLLO DE LA FUNCION MYRSA
 
 # Ahora se procede a crear la funcion que dados dos numeros primos p y q, genere las llaves publica y privada del algoritmo RSA.
 # con la funcion isprime verificamos si los dos numeros son primos, en el caso de que uno o los dos no sean primos mostrara el mensaje: 
@@ -61,7 +61,8 @@ def isprime (k):
 #
 # Luego de la lista del range "e" se escoge el ultimo numero de la lista, ya que entre mas grande sea "e", habra menos riesgo de seguridad.
 #
-# se escoge un "d" tal que d * e * %phi(N) = 1, donde "d" es una lista de numeros (1,2,3...), para hallar "d" se crea un range que va desde 0 hasta phi(n) * 3, lo multiplico por tres para hallar el tercero de la lista.
+# se escoge un "d" tal que d * e * %phi(N) = 1, donde "d" es una lista de numeros (1,2,3...), para hallar "d" 
+# se crea un range que va desde 0 hasta phi(n) * 3, lo multiplico por tres para hallar el tercero de la lista.
 #
 # Por ultimo se muestra la llave publica (e, N) y la llave privada (d, N).
 
@@ -84,4 +85,4 @@ def myrsa (p, q):
 		print "La llave publica es: ",e,",",N
 		print "La llave privada es: ",d,",",N
 
-print myrsa(41, 43) 
+print myrsa(3, 7) 
